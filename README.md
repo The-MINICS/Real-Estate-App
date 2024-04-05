@@ -3,6 +3,7 @@
 ## Environment Setup
 _This project utilizes environment variables to store configuration details. To run the application, follow these steps:_
 1. Create a `.env` file:
+   
       ```
         cp .env.example .env  
       ```
@@ -11,4 +12,4 @@ _This project utilizes environment variables to store configuration details. To 
 2. Update the `.env` file:
      * Open the **.env** file in a text editor.
      * Replace the placeholder values within angle brackets (<...>) with your actual credentials for the following variable:
-        * DATABASE_URL: This variable stores your PostgreSQL database connection string. Refer to your database provider's documentation for constructing the correct connection string format.
+        * MONGO: This variable stores your MongoDB database connection string. Refer to your database provider's documentation for constructing the correct connection string format.
